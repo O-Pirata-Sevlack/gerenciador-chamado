@@ -1,0 +1,42 @@
+* {
+    color: var(--fontcolor);
+    font-family: Arial;
+}
+
+body {
+    font-family: Arial;
+    background:  var(--bg);
+    position: absolute;
+    top: 100px;
+    left: 750px;
+}
+
+
+h2 {
+    position: absolute;
+    top: 60px;
+    left: 90px;
+}
+
+
+.tema {
+    --bg: rgb(0, 0, 0);
+    --fontcolor: rgb(255, 255, 255);
+
+}
+
+.button {
+    position: absolute;
+    top: 130px;
+    left: 140px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.button:focus {
+    outline-style: none;
+}
