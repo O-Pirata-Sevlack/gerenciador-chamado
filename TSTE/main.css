@@ -1,0 +1,26 @@
+* {
+    color: var(--fontcolor);
+    font-family: Arial;
+}
+
+body {
+    font-family: Arial;
+    background:  var(--bg);
+    position: center;
+    top: 200px;
+    left: 700px;
+}
+
+
+h2 {
+    position: center;
+    top: 60px;
+    left: 90px;
+}
+
+
+.tema {
+    --bg: rgb(0, 0, 0);
+    --fontcolor: rgb(255, 255, 255);
+
+}

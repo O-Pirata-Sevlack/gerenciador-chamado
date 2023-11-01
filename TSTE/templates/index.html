@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>HNL TI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="main.css" />
+    
+</head>
+<body class="tema">
+    <h1>HNL TI</h1>
+    <h2>Este é o Gerenciador de Chamados da TI</h2>
+    <p>Preencha o campo abaixo e clique em registrar.</p>
+    <form method="POST">
+        <input type="text" name="P1" id="P1" placeholder= "Nome de quem ligou" />
+        <label for="P1"> -Nome de quem ligou</label><br><br>
+        
+        <input type="text" name="P2" id="P2" placeholder= "Qual setor:  " />
+        <label for="P2"> -Qual setor</label><br><br>
+        
+        <input type="text" name="P3" id="P3" placeholder= "Qual ramal:  " />
+        <label for="P3"> -Qual ramal</label><br><br>
+        
+        <input type="text" name="P4" id="P4" placeholder= "Foi aberto chamado:  " />
+        <label for="P4"> -Foi aberto chamado</label><br><br>
+        
+        <input type="text" name="P6" id="P6" placeholder= "Qual código do chamado:  " />
+        <label for="P5"> -Qual código do chamado</label><br><br>
+        
+        <input type="text" name="P5" id="P5" placeholder= "Qual a solicitação:  " />
+        <label for="P6"> -Qual a solicitação</label><br><br>
+
+        <input type="submit" value="Registrar">
+        <button onclick="window.location.href='/readfile'">Consultar Registros</button>
+    </form>
+
+</body>
+</html>
